@@ -1,0 +1,15 @@
+[package]
+name = "lau-modular-agents"
+version = "0.1.0"
+edition = "2021"
+description = "Modular lattice theory for agents — algebraic structure of capability hierarchies"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-modular-agents"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+nalgebra = "0.33"
+
+[dev-dependencies]
+pretty_assertions = "1"
